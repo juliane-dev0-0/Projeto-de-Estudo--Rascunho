@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+:root{
+  --cor-principal: #523906;
+  --cor-escrito:#F1FFF1;
+  --cor-botao: #535204;
+  --cor-utilizavel: #62760C;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh; 
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    color: var(--cor-escrito);
+
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 10%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+    
+}
+
+.cabecalho__menu__link{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-escrito);
+    text-decoration:none;
+    
+    
+}
+ .apresentacao{
+    padding:  2% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+  }
+
+  .apresentacao__conteudo__titulo {
+    
+    text-align: initial;
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    
+    
+  }
+  
+  .apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: #62760C;
+  }
+  
+  .apresentacao__links {
+    
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 32px;
+    
+  }
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+
+}
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    background-color: var(--cor-utilizavel);
+    border: 5px solid var(--cor-botao);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.apresentacao__conteudo {
+    
+    background-image: url(img/photo1689616322.jpeg);
+    padding:  2% 5%;
+    display: flex;
+    flex-direction:column;
+    gap: 16px;
+   
+
+    }
+  
+  .fotinha {
+  
+    width: 50%;
+  } 
+ 
+  .logo-instagram {
+    max-width: 35px; /* Defina o tamanho máximo desejado para o logo */
+    vertical-align: middle; /* Isso ajudará a alinhar o logo com o texto do botão */
+    margin-right: 10px; 
+  }
+
+  .logo-whatsapp{
+    max-width: 65px; /* Defina o tamanho máximo desejado para o logo */
+    vertical-align: middle; /* Isso ajudará a alinhar o logo com o texto do botão */
+    margin-right: 1px; 
+  }
+  
+  .logo-catalogo {
+    
+    max-width: 40px; /* Defina o tamanho máximo desejado para o logo */
+    vertical-align: middle; /* Isso ajudará a alinhar o logo com o texto do botão */
+     margin-right: 5px; 
+  }
+
+ 
+a:hover{
+    background-color: var(--cor-botao);
+    color: black;
+    border-radius: 16px;
+}
+
+.rodape{
+ 
+    padding: 24px;
+    color: var(--cor-escrito);
+    background-color: var(--cor-utilizavel);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
+}
